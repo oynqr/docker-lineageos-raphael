@@ -3,13 +3,12 @@
 
   <!-- Device Specific Repos -->
 
-  <project name="raphael-devs/android_device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="lineage-18.0" />
-  <project name="raphael-devs/android_vendor_xiaomi" path="vendor/xiaomi" remote="github"  revision="lineage-18.0"  />
+  <project name="UtsavBalar1231/android_device_xiaomi_raphael" path="device/xiaomi/raphael" remote="github" revision="android11-release" />
+  <project name="UtsavBalar1231/android_device_xiaomi_raphael-sepolicy" path="device/xiaomi/raphael-sepolicy" remote="github" revision="android11-release" />
+  <project name="UtsavBalar1231/vendor_xiaomi_raphael" path="vendor/xiaomi/raphael" remote="github" revision="Rika" />
+  <project name="UtsavBalar1231/kernel_xiaomi_raphael" path="kernel/xiaomi/raphael" remote="github" revision="android11" />
 
-  <!-- Lineage Repos -->
+  <!-- MicroG prebuilts -->
+  <project name="lineageos4microg/android_prebuilts_prebuiltapks" path="prebuilts/prebuiltapks" remote="github" revision="master" />
 
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="lineage" />
 </manifest>
